@@ -1,0 +1,33 @@
+# Site settings
+title: Babel Legacy (5.x)
+tagline: The compiler for writing next generation JavaScript
+description: The compiler for writing next generation JavaScript
+baseurl: "/babel-legacy-docs/" # the subpath of your site, e.g. /blog/
+url: "https://developit.github.io" # the base hostname & protocol for your site
+# twitter_username: jekyllrb
+github_username: babel
+exclude: ["node_modules"]
+
+# Build settings
+markdown: redcarpet
+# markdown: kramdown
+highlighter: pygments
+
+redcarpet:
+  extensions: ['tables', 'no_intra_emphasis', 'autolink', 'with_toc_data']
+
+# kramdown:
+#   input: GFM
+#   hard_wrap: false
+
+# Blog Settings
+permalink: /blog/:year/:month/:day/:title
+paginate: 1
+
+gems:
+  - jekyll-redirect-from
+
+default_js:
+  - "//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"
+  - "//cdnjs.cloudflare.com/ajax/libs/lodash.js/2.4.1/lodash.min.js"
+  - "//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.1/js/bootstrap.min.js"

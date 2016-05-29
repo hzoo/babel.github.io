@@ -13,14 +13,14 @@ fly. This is equivalent to CoffeeScript's
 <blockquote class="babel-callout babel-callout-warning">
   <h4>Not suitable for libraries</h4>
   <p>
-    The require hook automatically hooks itself into <strong>all</strong> node requires. This will pollute the global scope and introduce conflicts. If you're writing an application, it's completely fine to use. If, however, you're writing a library then you should compile your library and depend on the <a href="/docs/usage/runtime">babel-runtime</a>.
+    The require hook automatically hooks itself into <strong>all</strong> node requires. This will pollute the global scope and introduce conflicts. If you're writing an application, it's completely fine to use. If, however, you're writing a library then you should compile your library and depend on the <a href={{ "/docs/usage/runtime" | prepend: site.baseurl }}>babel-runtime</a>.
   </p>
 </blockquote>
 
 <blockquote class="babel-callout babel-callout-warning">
   <h4><code>utility.inlineEnvironmentVariables</code> use</h4>
   <p>
-    Please note the <a href="/docs/advanced/transformers/utility/inline-environment-variables#require-hook"> when used in conjunction.</a>
+    Please note the <a href={{ "/docs/advanced/transformers/utility/inline-environment-variables#require-hook" | prepend: site.baseurl }}> when used in conjunction.</a>
   </p>
 </blockquote>
 
@@ -37,7 +37,7 @@ require("babel/register");
 ```
 
 All subsequent files required by node with the extensions `.es6`, `.es`, `.jsx`
-and `.js` will be transformed by Babel. The [polyfill](/docs/usage/polyfill) is also automatically required.
+and `.js` will be transformed by Babel. The [polyfill]({{ site.baseurl }}/docs/usage/polyfill) is also automatically required.
 
 **NOTE:** By default all requires to `node_modules` will be ignored. You can
 override this by passing an ignore regex via:
@@ -81,7 +81,7 @@ require("babel/register")({
 });
 ```
 
-You can pass in all other [options](/docs/usage/options/#options) as well.
+You can pass in all other [options]({{ site.baseurl }}/docs/usage/options/#options) as well.
 
 ## Environment variables
 

@@ -15,7 +15,7 @@ redirect_from: /browser.html
   <p>
     Compiling in the browser has a fairly limited use case, so if you are
     working on a production site you should be precompiling your scripts
-    server-side. See <a href="/docs/setup/#build-systems">setup build systems</a>
+    server-side. See <a href={{ "/docs/setup/#build-systems" | prepend: site.baseurl }}>setup build systems</a>
     for more information.
   </p>
 </blockquote>
@@ -43,7 +43,7 @@ test.test(); // "test"
 
 Programmatically compile and execute strings of ES6 code.
 
-See [options](/docs/usage/options/) for additional documentation.
+See [options]({{ site.baseurl }}/docs/usage/options/) for additional documentation.
 
 ### `babel.transform(code, [opts])`
 

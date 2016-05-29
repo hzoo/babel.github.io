@@ -9,7 +9,7 @@ permalink: /docs/usage/api/
 var babel = require("babel");
 ```
 
-## babel.transform(code, [[options](/docs/usage/options)])
+## babel.transform(code, [[options]({{ site.baseurl }}/docs/usage/options)])
 
 Transforms the passed in `code`. Returning an object with the generated code,
 source map, and AST.
@@ -27,7 +27,7 @@ result.map;
 result.ast;
 ```
 
-## babel.transformFile(filename, [[options](/docs/usage/options)], callback)
+## babel.transformFile(filename, [[options]({{ site.baseurl }}/docs/usage/options)], callback)
 
 Asynchronously transforms the entire contents of a file.
 
@@ -43,7 +43,7 @@ babel.transformFile("filename.js", options, function (err, result) {
 });
 ```
 
-## babel.transformFileSync(filename, [[options](/docs/usage/options)])
+## babel.transformFileSync(filename, [[options]({{ site.baseurl }}/docs/usage/options)])
 
 Synchronous version of `babel.transformFile`. Returns the transformed contents of
 the `filename`.

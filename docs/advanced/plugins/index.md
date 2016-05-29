@@ -33,7 +33,7 @@ redirect_from:
 
 Plugins are resolved relative to the current working directory.
 
-[Node API](/docs/usage/api/):
+[Node API]({{ site.baseurl }}/docs/usage/api/):
 
 ```javascript
 require("babel").transform("code", {
@@ -47,13 +47,13 @@ require("babel").transform("code", {
 });
 ```
 
-[CLI](/docs/usage/cli/):
+[CLI]({{ site.baseurl }}/docs/usage/cli/):
 
 ```sh
 $ babel --plugins foo-bar script.js
 ```
 
-[babelrc](/docs/usage/babelrc/):
+[babelrc]({{ site.baseurl }}/docs/usage/babelrc/):
 
 ```javascript
 {
@@ -120,15 +120,15 @@ You can find a simple plugin example as well as usage in the [sebmck/babel-plugi
 
 ## Plugin API
 
-### [Visiting](/docs/advanced/plugins/visiting)
+### [Visiting]({{ site.baseurl }}/docs/advanced/plugins/visiting)
 
 How to visit nodes
 
-### [Manipulation](/docs/advanced/plugins/manipulation)
+### [Manipulation]({{ site.baseurl }}/docs/advanced/plugins/manipulation)
 
 How to remove and replace nodes
 
-### [Scope](/docs/advanced/plugins/scope)
+### [Scope]({{ site.baseurl }}/docs/advanced/plugins/scope)
 
 How to use scoping and track variables
 

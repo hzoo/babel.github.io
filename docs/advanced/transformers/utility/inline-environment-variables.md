@@ -49,7 +49,7 @@ if ("development" === "development") {
 }
 ```
 
-Use this in conjunction with the [minification.deadCodeElimination](/docs/usage/transformers/minification/dead-code-elimination)
+Use this in conjunction with the [minification.deadCodeElimination]({{ site.baseurl }}/docs/usage/transformers/minification/dead-code-elimination)
 transformer to output:
 
 ```javascript

@@ -132,7 +132,7 @@ $ babel-node --debug --stage 0 -- script.js --debug
 | `-p, --print`            |                      | Evaluate script and print result |
 | `-i, --ignore [regex]`   | `node_modules`       | Ignore all files that match this regex when using the require hook |
 | `-x, --extensions`       | `".js",".jsx",".es6",".es"` | List of extensions to hook into |
-| `-r, --stage [stage]`    | `2`                  | Set the [experimental](/docs/usage/experimental) proposal stage |
+| `-r, --stage [stage]`    | `2`                  | Set the [experimental]({{ site.baseurl }}/docs/usage/experimental) proposal stage |
 | `-w, --whitelist`        |                      | Whitelist of transformers separated by comma to ONLY use |
 | `-b, --blacklist`        |                      | Blacklist of transformers separated by comma to NOT use |
 | `-o, --optional`         |                      | List of optional transformers separated by comma to enable | 

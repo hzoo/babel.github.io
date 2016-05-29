@@ -7,7 +7,7 @@ permalink: /docs/advanced/transformers/other/comprehensions/
 
 ## Usage
 
-This is a [stage 0 experimental](/docs/usage/experimental) transformer. Note
+This is a [stage 0 experimental]({{ site.baseurl }}/docs/usage/experimental) transformer. Note
 that the second version enables all stage 0 transformers.
 
 ```javascript

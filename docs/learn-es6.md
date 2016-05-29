@@ -294,7 +294,7 @@ interface Iterable {
 <blockquote class="babel-callout babel-callout-info">
   <h4>Support via polyfill</h4>
   <p>
-    In order to use Iterators you must include the Babel <a href="/docs/usage/polyfill">polyfill</a>.
+    In order to use Iterators you must include the Babel <a href={{ "/docs/usage/polyfill" | prepend: site.baseurl }}>polyfill</a>.
   </p>
 </blockquote>
 
@@ -342,19 +342,19 @@ interface Generator extends Iterator {
 <blockquote class="babel-callout babel-callout-info">
   <h4>Support via polyfill</h4>
   <p>
-    In order to use Generators you must include the Babel <a href="/docs/usage/polyfill">polyfill</a>.
+    In order to use Generators you must include the Babel <a href={{ "/docs/usage/polyfill" | prepend: site.baseurl }}>polyfill</a>.
   </p>
 </blockquote>
 
 ### Comprehensions
 
-See [this page](/docs/advanced/transformers/other/comprehensions) for details.
-It is now an [ES7 Strawman proposal](/docs/usage/experimental).
+See [this page]({{ site.baseurl }}/docs/advanced/transformers/other/comprehensions) for details.
+It is now an [ES7 Strawman proposal]({{ site.baseurl }}/docs/usage/experimental).
 
 <blockquote class="babel-callout babel-callout-warning">
   <h4>Disabled by default</h4>
   <p>
-    This is only available if you enable experimental support. See <a href="/docs/usage/experimental">experimental usage</a> for more information.
+    This is only available if you enable experimental support. See <a href={{ "/docs/usage/experimental" | prepend: site.baseurl }}>experimental usage</a> for more information.
   </p>
 </blockquote>
 
@@ -430,7 +430,7 @@ alert("2π = " + exp(pi, e));
   <p>
     Babel can transpile ES2015 Modules to several different formats including
     Common.js, AMD, System, and UMD. You can even create your own. For more
-    details see the <a href="/docs/usage/modules">modules docs</a>.
+    details see the <a href={{ "/docs/usage/modules" | prepend: site.baseurl }}>modules docs</a>.
   </p>
 </blockquote>
 
@@ -522,7 +522,7 @@ ws.add({ data: 42 });
 <blockquote class="babel-callout babel-callout-info">
   <h4>Support via polyfill</h4>
   <p>
-    In order to support Maps, Sets, WeakMaps, and WeakSets in all environments you must include the Babel <a href="/docs/usage/polyfill">polyfill</a>.
+    In order to support Maps, Sets, WeakMaps, and WeakSets in all environments you must include the Babel <a href={{ "/docs/usage/polyfill" | prepend: site.baseurl }}>polyfill</a>.
   </p>
 </blockquote>
 
@@ -637,7 +637,7 @@ c["key"] === undefined
 <blockquote class="babel-callout babel-callout-info">
   <h4>Limited support via polyfill</h4>
   <p>
-    Limited support requires the Babel <a href="/docs/usage/polyfill">polyfill</a>. Due to language limitations, some features can't be transpiled or polyfilled. See core.js's <a href="https://github.com/zloirock/core-js#caveats-when-using-symbol-polyfill">caveats section</a> for more details.
+    Limited support requires the Babel <a href={{ "/docs/usage/polyfill" | prepend: site.baseurl }}>polyfill</a>. Due to language limitations, some features can't be transpiled or polyfilled. See core.js's <a href="https://github.com/zloirock/core-js#caveats-when-using-symbol-polyfill">caveats section</a> for more details.
   </p>
 </blockquote>
 
@@ -694,7 +694,7 @@ Object.assign(Point, { origin: new Point(0,0) })
 <blockquote class="babel-callout babel-callout-warning">
   <h4>Limited support from polyfill</h4>
   <p>
-    Most of these APIs are supported by the Babel <a href="/docs/usage/polyfill">polyfill</a>. However, certain
+    Most of these APIs are supported by the Babel <a href={{ "/docs/usage/polyfill" | prepend: site.baseurl }}>polyfill</a>. However, certain
     features are omitted for various reasons (e.g.
     <code>String.prototype.normalize</code> needs a lot of additional code to
     support). You can find more polyfills
@@ -744,7 +744,7 @@ var p = timeout(1000).then(() => {
 <blockquote class="babel-callout babel-callout-info">
   <h4>Support via polyfill</h4>
   <p>
-    In order to support Promises you must include the Babel <a href="/docs/usage/polyfill">polyfill</a>.
+    In order to support Promises you must include the Babel <a href={{ "/docs/usage/polyfill" | prepend: site.baseurl }}>polyfill</a>.
   </p>
 </blockquote>
 
@@ -772,7 +772,7 @@ instance.c; // 42
 <blockquote class="babel-callout babel-callout-info">
   <h4>Support via polyfill</h4>
   <p>
-    In order to use the Reflect API you must include the Babel <a href="/docs/usage/polyfill">polyfill</a>.
+    In order to use the Reflect API you must include the Babel <a href={{ "/docs/usage/polyfill" | prepend: site.baseurl }}>polyfill</a>.
   </p>
 </blockquote>
 

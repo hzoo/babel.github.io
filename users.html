@@ -23,7 +23,7 @@ permalink: /users/
             <div class="col-md-4 col-sm-6">
               <div class="babel-user-target" id="{{user.name}}"></div>
               <a class="babel-user" href="{{user.url}}" title="{{user.name}}">
-                <img class="img-responsive" src="/images/users/{{user.logo}}" alt="{{user.name}}">
+                <img class="img-responsive" src="{{ site.baseurl }}/images/users/{{user.logo}}" alt="{{user.name}}">
               </a>
             </div>
           {% endfor %}

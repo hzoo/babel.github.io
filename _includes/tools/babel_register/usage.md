@@ -2,7 +2,7 @@
 require("babel/register");
 ```
 
-All subsequent files required by node with the extensions `.es6`, `.es`, `.jsx` and `.js` will be transformed by Babel. The polyfill specified in [polyfill](/docs/usage/polyfill) is also automatically required.
+All subsequent files required by node with the extensions `.es6`, `.es`, `.jsx` and `.js` will be transformed by Babel. The polyfill specified in [polyfill]({{ site.baseurl }}/docs/usage/polyfill) is also automatically required.
 
 <blockquote class="babel-callout babel-callout-warning">
   <h4>Not suitable for libraries</h4>
@@ -13,6 +13,6 @@ All subsequent files required by node with the extensions `.es6`, `.es`, `.jsx` 
 
 <blockquote class="babel-callout babel-callout-info">
   <p>
-    For full documentation on the Babel require hook see the <a href="/docs/usage/require/">usage docs</a>.
+    For full documentation on the Babel require hook see the <a href={{ "/docs/usage/require/" | prepend: site.baseurl }}>usage docs</a>.
   </p>
 </blockquote>

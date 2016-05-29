@@ -13,14 +13,14 @@ module to transform async and generator functions.
 <blockquote class="babel-callout babel-callout-info">
   <h4>Runtime required</h4>
   <p>
-    You need to use either the <a href="/docs/usage/polyfill">Babel polyfill</a> or the <a href="https://github.com/facebook/regenerator/blob/master/runtime.js">regenerator runtime</a>.
+    You need to use either the <a href={{ "/docs/usage/polyfill" | prepend: site.baseurl }}>Babel polyfill</a> or the <a href="https://github.com/facebook/regenerator/blob/master/runtime.js">regenerator runtime</a>.
   </p>
 </blockquote>
 
 <blockquote class="babel-callout babel-callout-warning">
   <h4>Async functions</h4>
   <p>
-    These are only usable if you enable experimental support. See <a href="/docs/usage/experimental">experimental usage</a> for information.
+    These are only usable if you enable experimental support. See <a href={{ "/docs/usage/experimental" | prepend: site.baseurl }}>experimental usage</a> for information.
   </p>
 </blockquote>
 

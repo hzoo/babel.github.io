@@ -8,16 +8,16 @@ permalink: /docs/faq/
 ## What is the browser compatibility?
 
 As a rule of thumb, IE9+. You can support IE8 by limiting yourself to a subset of ES6 features. The
-[Caveats](/docs/advanced/caveats) page goes into the details of supporting legacy browsers.
+[Caveats]({{ site.baseurl }}/docs/advanced/caveats) page goes into the details of supporting legacy browsers.
 
 ## Why am I getting a syntax error when using `{ ...props }` and `async function foo() {}`?
 
-You need to enable the [experimental option](/docs/usage/experimental).
+You need to enable the [experimental option]({{ site.baseurl }}/docs/usage/experimental).
 
 ## Why is the output of `for...of` so verbose and ugly?
 
 This is necessary in order to comply with the spec as an iterators `return` method must be called on
-errors. An alternative is to enable [loose mode](/docs/advanced/loose#abrupt-completions) but please note
+errors. An alternative is to enable [loose mode]({{ site.baseurl }}/docs/advanced/loose#abrupt-completions) but please note
 that there are **many** caveats to be aware of if you enable loose mode and that you're willingly choosing
 to be spec incompliant.
 
@@ -62,7 +62,7 @@ require("babel").transform("code", { blacklist: ["strict"] });
 **PLEASE NOTE:** If you do this you're willingly deviating from the spec and this may cause future
 interop issues.
 
-See the [strict transformer docs](/docs/advanced/transformers/other/strict) for more info.
+See the [strict transformer docs]({{ site.baseurl }}/docs/advanced/transformers/other/strict) for more info.
 
 ## How does Babel differ from other transpilers?
 
@@ -72,7 +72,7 @@ Many issues plague current transpilers, Babel takes a unique approach to many as
 
 Many transpilers require a globally polluting polyfill and runtime. Babel has various ways
 to avoid this, including concise code that utilises minimal inline helpers as well as
-features such as [runtime](/docs/usage/runtime) that enable library authors to utilise ES2015
+features such as [runtime]({{ site.baseurl }}/docs/usage/runtime) that enable library authors to utilise ES2015
 methods without the aforementioned polyfill.
 
 ### Readable output
@@ -97,13 +97,13 @@ Simply disable it and reap the benefits of all the other transformers.
 
 The Babel feature set is very comprehensive, supporting every ES2015 syntactic feature. With
 built-in support for emerging standards such as [Flow](http://flowtype.org) and
-[JSX/React](/docs/usage/jsx) it makes it extremely easy to integrate.
+[JSX/React]({{ site.baseurl }}/docs/usage/jsx) it makes it extremely easy to integrate.
 
 ### Flexible
 
 Babel is very flexible in its usage, it has support for an extensive range of
-[build systems](/docs/setup#build-systems) as well as for the
-[browser](/docs/usage/browser), [node](/docs/setup#node-js) and [more!](/docs/setup#misc).
+[build systems]({{ site.baseurl }}/docs/setup#build-systems) as well as for the
+[browser]({{ site.baseurl }}/docs/usage/browser), [node]({{ site.baseurl }}/docs/setup#node-js) and [more!]({{ site.baseurl }}/docs/setup#misc).
 
 ## What is a module formatter?
 

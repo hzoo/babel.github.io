@@ -16,7 +16,7 @@ compiled output. The runtime will be compiled into your build.
 Another purpose of this transformer is to create a sandboxed environment for your
 code. Built-ins such as `Promise`, `Set` and `Map` are aliased to `core-js` so
 you can use them seamlessly without having to require a globally polluting
-[polyfill](/docs/usage/polyfill). This is fantastic for libraries as you can
+[polyfill]({{ site.baseurl }}/docs/usage/polyfill). This is fantastic for libraries as you can
 write your code without the cognitive overhead of worrying about the environment
 in which your code will be run.
 

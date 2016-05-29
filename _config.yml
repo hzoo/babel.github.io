@@ -1,9 +1,9 @@
 # Site settings
-title: Babel Legacy (5.x)
+title: Babel (5.x)
 tagline: The compiler for writing next generation JavaScript
 description: The compiler for writing next generation JavaScript
-baseurl: "/babel-legacy-docs/" # the subpath of your site, e.g. /blog/
-url: "https://developit.github.io" # the base hostname & protocol for your site
+baseurl: "/babel.github.io" # the subpath of your site, e.g. /blog/
+url: "http://henryzoo.com" # the base hostname & protocol for your site
 # twitter_username: jekyllrb
 github_username: babel
 exclude: ["node_modules"]

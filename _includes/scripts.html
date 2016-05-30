@@ -18,7 +18,7 @@
 
 {% if page.custom_js_with_timestamps %}
   {% for js_file in page.custom_js_with_timestamps %}
-    <script src="{{ site.baseurl }}/scripts/{{ js_file | prepend: site.baseurl }}?t={{ site.time | date_to_xmlschema }}"
+    <script src="{{ site.baseurl }}/scripts/{{ js_file }}?t={{ site.time | date_to_xmlschema }}"
             type="text/javascript"></script>
   {% endfor %}
 {% endif %}
